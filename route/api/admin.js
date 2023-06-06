@@ -4,7 +4,6 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const keys = require('../../config/keys');
 const passport = require('passport');
-
 const validateAdminRegisterInput = require('../../validation/Adminregister');
 const validateAdminLoginInput = require('../../validation/AdminLogin');
 const validateAdminExtraDetails = require('../../validation/Adminextradetails');
@@ -155,7 +154,7 @@ router.get('/', passport.authenticate('jwt', { session: false }), (req, res) => 
 	Admin.findOne({ _id: req.Admin.id })
 		.then((profile) => {
 			if (!profile) {
-				errors.noprofile = 'There is no profile for this user';
+				errors.noprofile = 'There is no profile for this Admin';
 				return res.status(404).json(errors);
 			}
 			res.json(profile);

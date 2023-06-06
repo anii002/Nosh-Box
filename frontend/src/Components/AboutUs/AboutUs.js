@@ -2,7 +2,7 @@ import React from 'react';
 import Spinner from '../layout/Spinner/Spinner';
 import about from '../Image/about.jpg';
 import panir from '../Image/panir.jpg';
-import rahul from '../Image/rahul.jpg';
+import aniket from '../Image/aniket.jpg';
 import papa from '../Image/papa.jpg';
 import invest from '../Image/invest.jpg';
 import mummy from '../Image/mummy.jpeg';
@@ -102,7 +102,7 @@ export class AboutUs extends React.Component {
 												alt="image1"
 											/>
 											<div className="content mt-2">
-												<h4>Rajnath Prasad</h4>
+												<h4>Ramashankar gupta</h4>
 												<p className="text-muted">
 													Founder & CEO
 												</p>
@@ -117,9 +117,9 @@ export class AboutUs extends React.Component {
 												alt="image1"
 											/>
 											<div className="content mt-2">
-												<h4>Urmila Devi</h4>
+												<h4>Anita devi & saroj devi & Rita devi  </h4>
 												<p className="text-muted">
-													Cooking Master
+													Cooking Master's
 												</p>
 											</div>
 										</div>
@@ -127,12 +127,12 @@ export class AboutUs extends React.Component {
 									<div className="col-md-6 col-lg-3">
 										<div className="img-block mb-5">
 											<img
-												src={rahul}
+												src={aniket}
 												className="img-fluid  img-thumbnail rounded-circle"
 												alt="image1"
 											/>
 											<div className="content mt-2">
-												<h4>Rahul Rauniyar</h4>
+												<h4>Aniket Gupta</h4>
 												<p className="text-muted">Developer</p>
 											</div>
 										</div>
@@ -145,7 +145,7 @@ export class AboutUs extends React.Component {
 												alt="image1"
 											/>
 											<div className="content mt-2">
-												<h4>Pritam & Prince</h4>
+												<h4>Hridyanand & sikendar</h4>
 												<p className="text-muted">
 													Managing Director
 												</p>
