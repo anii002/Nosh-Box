@@ -14,7 +14,7 @@ export class Footer extends React.Component {
 						<div>
 							<a
 								target="blank"
-								href="https://www.facebook.com/rahulrauniyar.rahulrauniyar/"
+								href='https://www.facebook.com/aniketkrgupta.gupta?mibextid=ZbWKwL'
 								className="me-4 text-reset"
 							>
 								<i
@@ -25,14 +25,14 @@ export class Footer extends React.Component {
 
 							<a
 								target="blank"
-								href="https://www.instagram.com/r__rauni/"
+								href="https://instagram.com/aniket.g002?igshid=ZDc4ODBmNjlmNQ=="
 								className="me-4 text-reset"
 							>
 								<i className="fab fa-instagram"></i>
 							</a>
 							<a
 								target="blank"
-								href="https://www.linkedin.com/in/rahul-rauniyar-99452a205/"
+								href="https://www.linkedin.com/in/aniket-gupta-5b108a250"
 								className="me-4 text-reset"
 							>
 								<i
@@ -42,7 +42,7 @@ export class Footer extends React.Component {
 							</a>
 							<a
 								target="blank"
-								href="https://github.com/rauni00"
+								href="https://github.com/Anii002"
 								className="me-4 text-reset"
 							>
 								<i
@@ -60,8 +60,8 @@ export class Footer extends React.Component {
 						className="text-center p-3"
 						style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}
 					>
-						© 2022 Copyright:
-						<a className="text-reset"> Mom's Kitchen</a>
+						© 2023 Copyright:
+						<a className="text-reset"> Nosh-Box</a>
 					</div>
 				</footer>
 			</>
