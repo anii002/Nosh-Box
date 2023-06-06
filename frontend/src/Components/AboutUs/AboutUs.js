@@ -132,7 +132,6 @@ export class AboutUs extends React.Component {
 												alt="image1"
 											/>
 											<div className="content mt-2">
-												<h4>Rahul Rauniyar</h4>
 												<h4>Aniket Gupta</h4>
 												<p className="text-muted">Developer</p>
 											</div>
